@@ -3,6 +3,14 @@ package realtech
 import java.lang.StringBuilder
 import java.util.concurrent.CyclicBarrier
 
+/*
+Напишите многопоточную версию этого алгоритма.
+Один поток проверяет кратность З и выводит «Fizz». Другой поток отвечает за проверку кратности 5 и выводит «Buzz».
+Третий поток отвечает за проверку кратности З и 5 и выводит «FizzBuZZ». Четвертый поток работает с числами.
+
+Алгоритм — https://paste2.org/K8KB9zbL
+ */
+
 class FizzBuZZ(private val max: Int) {
 
 	@Volatile private var counter: Long = 1
