@@ -1,4 +1,4 @@
-package realtech.threadabc
+package realtech
 
 import com.nhaarman.mockito_kotlin.inOrder
 import com.nhaarman.mockito_kotlin.mock
